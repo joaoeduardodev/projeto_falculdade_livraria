@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+
+header{
+	background-color: #232f3e;
+}
+
+.titulo1{
+	font-family: 'Viga', arial;
+	font-size: 2rem;
+}
+
+.titulo2{
+	margin-bottom: 25px;
+}
+
+.nav-link{font-size: 1.25rem;}
+
+.jumbotron{
+	background-color: #082767;
+	background-image: url(../images/jumbotron-bg.jpg);
+	background-size: cover;
+}
+
+.no-margin{
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.scrollspy{
+	height: 25rem;
+	overflow: auto;
+}
+
+.escritores{
+	background-image: url(../images/escritores-bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.nav-pills .nav-link{
+	color: #000;
+}
+
+.rodape{
+	background-color: #232f3e;
+	margin-top: 0px !important;
+}
+
+.seta{
+	position: fixed;
+	bottom: 1.2rem;
+	right: 1.2rem;
+	color: #fff;
+	font-size: 1.2rem;
+	border: 0.0625rem solid #fff;
+	border-radius: 0.5rem;
+	padding: 0.5rem;
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 0.4;
+	transition: opacity 0.5s;
+}
+
+.seta:hover{
+	opacity: 1;
+}
